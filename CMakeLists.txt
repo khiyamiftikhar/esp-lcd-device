@@ -34,5 +34,8 @@ idf_component_register(
     REQUIRES
         esp_lcd
 		esp-lcd-ili9486
-
+		esp_timer 
+		driver
+		lvgl 
+		esp_lvgl_port 
 )
